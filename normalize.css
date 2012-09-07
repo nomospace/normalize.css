@@ -5,7 +5,7 @@
    ========================================================================== */
 
 /*
- * Corrects `block` display not defined in IE 8/9.
+ * 更正 IE 8/9 中未定义的 'block' 元素显示。
  */
 
 article,
@@ -23,7 +23,7 @@ summary {
 }
 
 /*
- * Corrects `inline-block` display not defined in IE 8/9.
+ * 更正 IE 8/9 中未定义的 'inline-block' 元素显示
  */
 
 audio,
@@ -33,8 +33,8 @@ video {
 }
 
 /*
- * Prevents modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
+ * 防止现代浏览器将没有 controls 属性的 'audio' 元素显示出来
+ * 移除 iOS 5 设备中多余的高度
  */
 
 audio:not([controls]) {
@@ -43,7 +43,7 @@ audio:not([controls]) {
 }
 
 /*
- * Addresses styling for `hidden` attribute not present in IE 8/9.
+ * 校正 IE 8/9 中 'hidden' 属性不起作用的问题
  */
 
 [hidden] {
@@ -51,13 +51,12 @@ audio:not([controls]) {
 }
 
 /* ==========================================================================
-   Base
+   基本
    ========================================================================== */
 
 /*
- * 1. Sets default font family to sans-serif.
- * 2. Prevents iOS text size adjust after orientation change, without disabling
- *    user zoom.
+ * 1. 将默认字体设置为 sans-serif
+ * 2. 在不禁止用户缩放的情况下避免 iOS 设备方向调整后自动校正字体大小
  */
 
 html {
@@ -67,7 +66,7 @@ html {
 }
 
 /*
- * Removes default margin.
+ * 移除缺省的外边距
  */
 
 body {
@@ -79,7 +78,7 @@ body {
    ========================================================================== */
 
 /*
- * Addresses `outline` inconsistency between Chrome and other browsers.
+ * 校正 'outline' 在 chrome 和其他浏览器间的不一致
  */
 
 a:focus {
