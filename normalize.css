@@ -1,7 +1,7 @@
 /*! normalize.css v2.0.1 | MIT License | git.io/normalize */
 
 /* ==========================================================================
-   HTML5 display definitions
+   HTML5 display 定义
    ========================================================================== */
 
 /*
@@ -74,7 +74,7 @@ body {
 }
 
 /* ==========================================================================
-   Links
+   链接
    ========================================================================== */
 
 /*
@@ -86,7 +86,7 @@ a:focus {
 }
 
 /*
- * Improves readability when focused and also mouse hovered in all browsers.
+ * 增强在所有浏览器中聚焦和鼠标悬停时的可读性
  */
 
 a:active,
@@ -200,11 +200,11 @@ sub {
 }
 
 /* ==========================================================================
-   Embedded content
+   嵌入内容
    ========================================================================== */
 
 /*
- * Removes border when inside `a` element in IE 8/9.
+ * 移除在 IE 8/9 中嵌入到 `a` 元素时的边框
  */
 
 img {
@@ -212,7 +212,7 @@ img {
 }
 
 /*
- * Corrects overflow displayed oddly in IE 9.
+ * 更正 IE 9 中诡异的 `overflow` 表现
  */
 
 svg:not(:root) {
@@ -224,7 +224,7 @@ svg:not(:root) {
    ========================================================================== */
 
 /*
- * Addresses margin not present in IE 8/9 and Safari 5.
+ * 更正 IE 8/9 和 Safari 5 中外边距不展示的问题
  */
 
 figure {
@@ -232,11 +232,11 @@ figure {
 }
 
 /* ==========================================================================
-   Forms
+   表单
    ========================================================================== */
 
 /*
- * Define consistent border, margin, and padding.
+ * 定义一致的边框、外边距和内边距
  */
 
 fieldset {
@@ -246,8 +246,8 @@ fieldset {
 }
 
 /*
- * 1. Corrects color not being inherited in IE 8/9.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 1. 更正 IE 8/9 中颜色不继承的问题
+ * 2. 移除内边距，确保人们在将 `fieldset` 设置为 0 时不至于大跌眼镜
  */
 
 legend {
@@ -256,9 +256,9 @@ legend {
 }
 
 /*
- * 1. Corrects font family not being inherited in all browsers.
- * 2. Corrects font size not being inherited in all browsers.
- * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ * 1. 更正所有浏览器中字体不继承的问题
+ * 2. 更正所有浏览器中字号不继承的问题
+ * 3. 更正 Firefox 4+， Safari 5 和 Chrome 中外边距不同的问题
  */
 
 button,
@@ -271,8 +271,7 @@ textarea {
 }
 
 /*
- * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
+ * 更正 Firefox 4+ 用户代理样式表 (UA stylesheet) 中在 `input` 上设置 `line-height` 时使用 `!important` 的问题
  */
 
 button,
@@ -281,11 +280,9 @@ input {
 }
 
 /*
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Corrects inability to style clickable `input` types in iOS.
- * 3. Improves usability and consistency of cursor style between image-type
- *    `input` and others.
+ * 1. 避免 Android 4.0.* 中的 WebKit bug，该 bug 会破坏原生的 `audio` 和 `video` 控制器
+ * 2. 更正 iOS 中无法设置可点击的 `input` 的问题
+ * 3. 增强图片类型以及其他类型的 `input` 中指针的可用性以及样式的一致性
  */
 
 button,
@@ -297,7 +294,7 @@ input[type="submit"] {
 }
 
 /*
- * Re-set default cursor for disabled elements.
+ * 重置 disabled 元素的默认指针样式
  */
 
 button[disabled],
@@ -306,8 +303,8 @@ input[disabled] {
 }
 
 /*
- * 1. Addresses box sizing set to `content-box` in IE 8/9.
- * 2. Removes excess padding in IE 8/9.
+ * 1. 调整 IE 8/9 box sizing 被设置为 `content-box` 的问题
+ * 2. 移除 IE 8/9 中多余的内边距
  */
 
 input[type="checkbox"],
@@ -317,9 +314,9 @@ input[type="radio"] {
 }
 
 /*
- * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
- * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
- *    (include `-moz` to future-proof).
+ * 1. 校正 Safari 5 和 Chrome 中 `appearance` 被设置为 `searchfield` 的问题
+ * 2. 校正 Safari 5 和 Chrome 中 `box-sizing` 被设置为 `border-box` 的问题
+ *  (include `-moz` to future-proof)
  */
 
 input[type="search"] {
@@ -330,8 +327,7 @@ input[type="search"] {
 }
 
 /*
- * Removes inner padding and search cancel button in Safari 5 and Chrome
- * on OS X.
+ * 移除 OS X 中 Safari 5 和 Chrome 内部的内边距以及搜索框的取消按钮
  */
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -340,7 +336,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 /*
- * Removes inner padding and border in Firefox 4+.
+ * 移除 Firefox 4+ 内部的内边距
  */
 
 button::-moz-focus-inner,
@@ -350,8 +346,8 @@ input::-moz-focus-inner {
 }
 
 /*
- * 1. Removes default vertical scrollbar in IE 8/9.
- * 2. Improves readability and alignment in all browsers.
+ * 1. 移除 IE 8/9 中默认的垂直滚动条
+ * 2. 增强所有浏览器下的文字对齐以及可读性
  */
 
 textarea {
@@ -360,11 +356,11 @@ textarea {
 }
 
 /* ==========================================================================
-   Tables
+   表格
    ========================================================================== */
 
 /*
- * Remove most spacing between table cells.
+ * 移除单元格间大部分的间距
  */
 
 table {
