@@ -5,7 +5,7 @@
    ========================================================================== */
 
 /*
- * 更正 IE 8/9 中未定义的 'block' 元素显示。
+ * 更正 IE 8/9 中未定义的 `block` 元素显示。
  */
 
 article,
@@ -23,7 +23,7 @@ summary {
 }
 
 /*
- * 更正 IE 8/9 中未定义的 'inline-block' 元素显示
+ * 更正 IE 8/9 中未定义的 `inline-block` 元素显示
  */
 
 audio,
@@ -33,7 +33,7 @@ video {
 }
 
 /*
- * 防止现代浏览器将没有 controls 属性的 'audio' 元素显示出来
+ * 防止现代浏览器将没有 controls 属性的 `audio` 元素显示出来
  * 移除 iOS 5 设备中多余的高度
  */
 
@@ -43,7 +43,7 @@ audio:not([controls]) {
 }
 
 /*
- * 校正 IE 8/9 中 'hidden' 属性不起作用的问题
+ * 校正 IE 8/9 中 `hidden` 属性不起作用的问题
  */
 
 [hidden] {
@@ -78,7 +78,7 @@ body {
    ========================================================================== */
 
 /*
- * 校正 'outline' 在 chrome 和其他浏览器间的不一致
+ * 校正 `outline` 在 Chrome 和其他浏览器间的不一致
  */
 
 a:focus {
@@ -95,12 +95,11 @@ a:hover {
 }
 
 /* ==========================================================================
-   Typography
+   排版
    ========================================================================== */
 
 /*
- * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
- * Safari 5, and Chrome.
+ * 校正 Firefox 4+，Safari 5 和 Chrome 中 `section` 和 `article` 内的 `h1` 字体大小
  */
 
 h1 {
@@ -108,7 +107,7 @@ h1 {
 }
 
 /*
- * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ * 校正 IE 8/9， Safari 5 和 Chrome 中样式不呈现的问题
  */
 
 abbr[title] {
@@ -116,7 +115,7 @@ abbr[title] {
 }
 
 /*
- * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ * 校正 Firefox 4+， Safari 5 和 Chrome 中 `bolder` 的样式
  */
 
 b,
@@ -125,7 +124,7 @@ strong {
 }
 
 /*
- * Addresses styling not present in Safari 5 and Chrome.
+ * 校正 Safari 5 和 Chrome 中样式不呈现的问题
  */
 
 dfn {
@@ -133,7 +132,7 @@ dfn {
 }
 
 /*
- * Addresses styling not present in IE 8/9.
+ * 校正 IE 8/9 中样式不呈现的问题
  */
 
 mark {
@@ -143,7 +142,7 @@ mark {
 
 
 /*
- * Corrects font family set oddly in Safari 5 and Chrome.
+ * 更正 Safari 5 和 Chrome 中诡异的字体设置
  */
 
 code,
@@ -155,7 +154,7 @@ samp {
 }
 
 /*
- * Improves readability of pre-formatted text in all browsers.
+ * 增强所有浏览器中预格式化文本的可读性
  */
 
 pre {
@@ -165,7 +164,7 @@ pre {
 }
 
 /*
- * Sets consistent quote types.
+ * 设置一致的引用类型
  */
 
 q {
@@ -173,7 +172,7 @@ q {
 }
 
 /*
- * Addresses inconsistent and variable font size in all browsers.
+ * 校正所有浏览器中易变且不一致的字体大小
  */
 
 small {
@@ -181,7 +180,7 @@ small {
 }
 
 /*
- * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ * 防止所有浏览器中的 `sub` 和 `sup` 影响到行高 (line-height)
  */
 
 sub,
